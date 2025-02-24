@@ -26,7 +26,7 @@ Gradle (build system)
 Installation & Setup
 
 Clone the repository:
-**git clone https://github.com/your-username/MedWise.git**
+**git clone https://github.com/JitSurani/MedWise.git**
 Open the project in Android Studio.
 Sync Gradle files and ensure all dependencies are installed.
 Run the app on an emulator or a physical device.
