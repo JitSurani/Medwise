@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- MedWise Logo -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/medwise_logo"
+        android:contentDescription="MedWise Logo"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Image of Doctor and Patient -->
+    <ImageView
+        android:id="@+id/imgDoctorPatient"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/doctor_patient"
+        android:contentDescription="Doctor and Patient Image"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"/>
+</LinearLayout>
+

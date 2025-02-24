@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/medwise_logo"
+        android:contentDescription="MedWise Logo"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Disease Detection Button -->
+    <Button
+        android:id="@+id/btnDiseaseDetection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disease Detection"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Medicine Recommendation Button -->
+    <Button
+        android:id="@+id/btnMedicineRecommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Recommendation"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Home Button -->
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
